@@ -12,10 +12,3 @@ def emotion_detector(text_to_analyze):
     formatted["dominant_emotion"] = max(formatted, key=formatted.get)
 
     return formatted
-
-
-
-'''
-from emotion_detection import emotion_detector
-emotion_detector("I am so happy I am doing this")
-'''
